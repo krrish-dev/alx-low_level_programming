@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * 
+ * positive_or_negative.c
+ * 
  *
- * Description: false or true validation
- *
- * Return: 0 (success)
+ * Return: 0 if sucess
 */
 
 int main(void)
