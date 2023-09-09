@@ -3,19 +3,19 @@
 /**
  * main - Entry point - by krrish
  *
- * Description: print all single digit numbers
+ * Description: print all single d numbers
  *
  * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	int digit = 0;
+	int d = 0;
 
-	while (digit <= 9)
+	while (d <= 9)
 	{
-		printf("%i", digit);
-		digit++;
+		printf("%i", d);
+		d++;
 	}
 	printf("\n");
 
