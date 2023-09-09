@@ -10,19 +10,19 @@
 
 int main(void)
 {
-	int digit = 0;
+	int d = 0;
 
-	while (digit <= 9)
+	while (d <= 9)
 	{
-		putchar(digit + 48);
+		putchar(d + 48);
 
-		if (digit != 9)
+		if (d != 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
 
-		digit++;
+		d++;
 	}
 	putchar('\n');
 

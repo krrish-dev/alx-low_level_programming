@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry point - krrish
  *
  * Description: print all possible different
  *            combinations of two digits.
