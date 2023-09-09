@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * positive or negative
- * 
- * Return: 0 if success
+ * main - entry point
  *
- * Done
+ * Description: false or true validation
+ *
+ * Return: 0 (success)
 */
 
 int main(void)
