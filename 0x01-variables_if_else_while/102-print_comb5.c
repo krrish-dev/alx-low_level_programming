@@ -9,30 +9,30 @@
 
 int main(void)
 {
-	int firstDigit = 0, seconDigit;
+	int firstNum = 0, secondNum;
 
-	while (firstDigit <= 99)
+	while (firstNum <= 99)
 	{
-		seconDigit = firstDigit;
-		while (seconDigit <= 99)
+		secondNum = firstNum;
+		while (secondNum <= 99)
 		{
-			if (seconDigit != firstDigit)
+			if (secondNum != firstNum)
 			{
-				putchar((firstDigit / 10) + 48);
-				putchar((firstDigit % 10) + 48);
+				putchar((firstNum / 10) + 48);
+				putchar((firstNum % 10) + 48);
 				putchar(' ');
-				putchar((seconDigit / 10) + 48);
-				putchar((seconDigit % 10) + 48);
+				putchar((secondNum / 10) + 48);
+				putchar((secondNum % 10) + 48);
 
-				if (firstDigit != 98 || seconDigit != 99)
+				if (firstNum != 98 || secondNum != 99)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
-			seconDigit++;
+			secondNum++;
 		}
-		firstDigit++;
+		firstNum++;
 	}
 	putchar('\n');
 

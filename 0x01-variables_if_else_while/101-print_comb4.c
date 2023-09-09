@@ -11,37 +11,37 @@
 
 int main(void)
 {
-	int digit1 = 0;
-	int digit2, digit3;
+	int d1 = 0;
+	int d2, d3;
 
-	while (digit1 <= 9)
+	while (d1 <= 9)
 	{
-		digit2 = 0;
-		while (digit2 <= 9)
+		d2 = 0;
+		while (d2 <= 9)
 		{
-			digit3 = 0;
-			while (digit3 <= 9)
+			d3 = 0;
+			while (d3 <= 9)
 			{
-				if (digit1 != digit2 &&
-				    digit1 < digit2 &&
-				    digit2 != digit3 &&
-				    digit2 < digit3)
+				if (d1 != d2 &&
+				    d1 < d2 &&
+				    d2 != d3 &&
+				    d2 < d3)
 				{
-					putchar(digit1 + 48);
-					putchar(digit2 + 48);
-					putchar(digit3 + 48);
+					putchar(d1 + 48);
+					putchar(d2 + 48);
+					putchar(d3 + 48);
 
-					if (digit1 + digit2 + digit3 != 24)
+					if (d1 + d2 + d3 != 24)
 					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
-				digit3++;
+				d3++;
 			}
-			digit2++;
+			d2++;
 		}
-		digit1++;
+		d1++;
 	}
 	putchar('\n');
 
