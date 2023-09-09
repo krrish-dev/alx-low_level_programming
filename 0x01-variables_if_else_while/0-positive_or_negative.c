@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
+ * positive or negative
  * 
- * positive_or_negative.c
- * 
+ * Return: 0 if success
  *
- * Return: 0 if sucess
+ * Done
 */
 
 int main(void)
