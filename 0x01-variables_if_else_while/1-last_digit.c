@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - enrty point
+ * main - enrty point by krrish
  *
  * Description: print the value of n status:
  *		greater than, is zero and is not less than 6.
