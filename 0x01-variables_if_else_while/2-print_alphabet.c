@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry point - by krrish
  *
  * Description: print all aplhabet letters
  *
@@ -10,12 +10,12 @@
 
 int main(void)
 {
-	char ch = 'a';
+	char le = 'a';
 
-	while (ch <= 'z')
+	while (le <= 'z')
 	{
-		putchar(ch);
-		ch++;
+		putchar(le);
+		le++;
 	}
 	putchar('\n');
 
