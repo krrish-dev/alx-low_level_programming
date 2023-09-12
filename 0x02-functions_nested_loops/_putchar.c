@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _putchar -  Writes a single character to the standard output (stdout).
+ * _putchar - Writes a single character to the standard output (stdout).
  *
  * @c: The character to be written.
  *
