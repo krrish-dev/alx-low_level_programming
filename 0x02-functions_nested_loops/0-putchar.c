@@ -3,19 +3,26 @@
 /**
  * main - Entry point
  *
- * Description: prints _putchar using putchar prototype
+ * Description: This function serves as the entry point of the program
+ *              and prints the string "_putchar" using a custom putchar
+ *              prototype implemented as _putchar.
  *
- * Return: Always 0 (Success)
-*/
+ * Return: Always returns 0 to indicate successful program execution.
+ */
+
+
+#include "main.h"
 
 int main(void)
 {
-	char str[] = "_putchar";
-	int ch;
+    char outputString[] = "_putchar";
+    int characterIndex;
 
-	for (ch = 0; ch < 8; ch++)
-		_putchar(str[ch]);
-	_putchar('\n');
+    for (characterIndex = 0; characterIndex < 8; characterIndex++)
+        _putchar(outputString[characterIndex]);
 
-	return (0);
+    _putchar('\n');
+
+    return (0);
 }
+
