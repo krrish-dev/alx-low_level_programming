@@ -3,21 +3,19 @@
 /**
  * main - Entry point
  *
- * Description: computes the sum of all
- *		the multiples of 3 or 5
- *		below 1024 (excluded)
+ * Description: Computes the sum of all multiples of 3 or 5 below 1024 (excluded).
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Success).
 */
 
 int main(void)
 {
-	int sum, num;
+	int sum, number;
 
-	for (num = 0; num < 1024; num++)
+	for (number = 0; number < 1024; number++)
 	{
-		if ((num % 3 == 0) || (num % 5 == 0))
-			sum += num;
+		if ((number % 3 == 0) || (number % 5 == 0))
+			sum += number;
 	}
 	printf("%d\n", sum);
 
