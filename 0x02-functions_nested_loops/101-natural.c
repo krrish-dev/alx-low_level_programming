@@ -7,7 +7,7 @@
  *		the multiples of 3 or 5
  *		below 1024 (excluded)
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Success) by krrish
 */
 
 int main(void)

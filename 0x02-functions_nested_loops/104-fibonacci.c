@@ -30,7 +30,7 @@ int numLength(int num)
  * Description: Prints the first 98 Fibonacci numbers
  *              starting with 1 and 2 followed by a new line.
  *
- * Return: Always 0 (Success).
+ * Return: Always 0 (Success). by krrish
 */
 
 int main(void)
