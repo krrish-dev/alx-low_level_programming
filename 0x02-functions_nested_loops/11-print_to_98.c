@@ -1,12 +1,9 @@
 #include "main.h"
 
 /**
- * print_to_98 - print n to 98 counts
- *           separated by comma, followed
- *           by space and number should be
- *           printed in order
+ * print_to_98 - Prints numbers from n to 98 in ascending or descending order.
  *
- * @n: input
+ * @n: The starting point for counting.
 */
 
 void print_to_98(int n)
