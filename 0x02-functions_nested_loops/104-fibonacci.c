@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * numLength - returns the length of string
+ * numLength - Returns the number of digits in an integer.
  *
- * @num: operand number
+ * @num: The integer for which to count the digits.
  *
- * Return: number of digits
+ * Return: The number of digits in the integer.
 */
 
 int numLength(int num)
@@ -27,10 +27,10 @@ int numLength(int num)
 /**
  * main - Entry point
  *
- * Description: prints the first 98 Fibonacci numbers
- *	starting with 1 and 2 followed by a new line
+ * Description: Prints the first 98 Fibonacci numbers
+ *              starting with 1 and 2 followed by a new line.
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Success).
 */
 
 int main(void)
