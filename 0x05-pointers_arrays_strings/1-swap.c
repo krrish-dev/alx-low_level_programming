@@ -7,7 +7,7 @@
  * @a: input parameter 1
  * @b: input parameter 2
  *
- * Return: Nothing
+ * Return: Nothing C - Pointers, arrays and strings
 */
 
 void swap_int(int *a, int *b)

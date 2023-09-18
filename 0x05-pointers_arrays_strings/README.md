@@ -1,1 +1,1 @@
-ea
+C pointer  arrays functions 

@@ -5,7 +5,7 @@
  *
  * @s: string parameter input
  *
- * Return: length of string
+ * Return: length of string C - Pointers, arrays and strings
 */
 
 int _strlen(char *s)
