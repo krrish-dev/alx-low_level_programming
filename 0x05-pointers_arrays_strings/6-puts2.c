@@ -5,7 +5,7 @@
  *
  * @str: string parameter input
  *
- * Return: Noting
+ * Return: Noting C - Pointers, arrays and strings
 */
 
 void puts2(char *str)

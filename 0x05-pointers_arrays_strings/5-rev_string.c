@@ -5,7 +5,7 @@
  *
  * @s: string parameter input
  *
- * Return: Nothing
+ * Return: Nothing C - Pointers, arrays and strings
 */
 
 void rev_string(char *s)
