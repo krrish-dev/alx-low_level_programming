@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * task_101_ wildcmp move_past_star 
- * iterates past asterisk
+ * move_past_star - iterates past asterisk
  * @s2: the second string, can contain wildcard
  *
  * Return: the pointer past star

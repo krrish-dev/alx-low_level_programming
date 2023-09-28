@@ -1,8 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * task 6_is_prime_number
- * check if n is a prime number
+ * is_prime_number - check if n is a prime number
  * @othrn:int
  * @n: int
  * Return: 0 or 1
