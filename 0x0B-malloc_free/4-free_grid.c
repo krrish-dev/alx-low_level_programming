@@ -1,17 +1,21 @@
 #include "main.h"
 
 /**
- * free_grid - free the grid
- * @grid: grid of memories
- * @height: int
- * Return: void
- */
-
+ * free_grid - Frees a 2D grid of integers.
+ * @grid: The grid to be freed.
+ * @height: The height (number of rows) of the grid.
+ *
+ * This function frees the memory allocated
+ * for a 2D grid of integers.
+ * It first frees the memory for each row
+ * and then frees the grid itself.
+*/
 void free_grid(int **grid, int height)
 {
-	int i = 0;
+    int row = 0;
 
-	for (; i < height; i++)
-		free(grid[i]);
-	free(grid);
+    for (; row < height; row++)
+        free(grid[row]);
+    free(grid);
 }
+
