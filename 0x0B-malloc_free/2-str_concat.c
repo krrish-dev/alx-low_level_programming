@@ -1,47 +1,60 @@
 #include "main.h"
-#include <stdlib.h>
 
-/**
+/**  
  * _strlen - Calculates the length of a string
- * @s: The string to measure the length of 
  *
- * Return: The length of the string
+ * This function iterates through each character of the input
+ * string "s" until it reaches the null terminator '\\0'. It 
+ * increments a counter for each character, and returns the 
+ * total count as the string length once the null terminator
+ * is reached.
+ * 
+ * @s: The string to calculate the length of
+ *
+ * Return: The length of the string "s"
 */
+
+
 int _strlen(char *s)
 {
-  int len = 0;
-  while (s[len] != '\0')
-    len++;
-  return (len);
+	int size = 0;
+
+	for (; s[size] != '\0'; size++)
+	;
+	return (size);
 }
 
 /**
- * str_concat - Concatenates two strings into a new allocated string 
- * @s1: The first string to concatenate
- * @s2: The second string to concatenate
- *
- * Return: Pointer to the newly allocated concatenated string, or NULL on failure
+  * str_concat - Concatenates two strings
+  * @s1: String 1
+  * @s2: String 2
+  *
+  * Return: Pointer to concatenated string
 */
+
 char *str_concat(char *s1, char *s2)
 {
-  /* Determine lengths of s1 and s2 */
-  int len1 = _strlen(s1); 
-  int len2 = _strlen(s2);
+	int size1, size2, i;
+	char *m;
 
-  char *concat = malloc(sizeof(char) * (len1 + len2 + 1));
-  if (!concat)
-    return (NULL);
+	if (s1 == NULL)
+		s1 = "\0";
+	if (s2 == NULL)
+		s2 = "\0";
 
-  int i;
-  /* Copy s1 to concat */
-  for (i = 0; i < len1; i++)
-    concat[i] = s1[i];
-  
-  /* Copy s2 after s1 */
-  for (i = 0; i < len2; i++)
-    concat[len1 + i] = s2[i];
+	size1 = _strlen(s1);
+	size2 = _strlen(s2);
+	m = malloc((size1 + size2) * sizeof(char) + 1);
+	if (m == 0)
+		return (0);
 
-  concat[len1 + len2] = '\0';
-
-  return (concat);
+	for (i = 0; i <= size1 + size2; i++)
+	{
+		if (i < size1)
+			m[i] = s1[i];
+		else
+			m[i] = s2[i - size1];
+	}
+	m[i] = '\0';
+	return (m);
 }
