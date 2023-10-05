@@ -11,7 +11,8 @@
  *
  * Return: If memory allocation is successful,
  * returns a pointer to the newly
- *         created 2D array. If width or height is less than or equal to 0, or if
+ *         created 2D array.
+ * If width or height is less than or equal to 0, or if
  *         memory allocation fails, returns NULL.
 */
 
