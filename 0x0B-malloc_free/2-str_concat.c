@@ -1,14 +1,14 @@
 #include "main.h"
 
-/**  
+/**
  * _strlen - Calculates the length of a string
  *
  * This function iterates through each character of the input
- * string "s" until it reaches the null terminator '\\0'. It 
- * increments a counter for each character, and returns the 
+ * string "s" until it reaches the null terminator '\\0'. It
+ * increments a counter for each character, and returns the
  * total count as the string length once the null terminator
  * is reached.
- * 
+ *
  * @s: The string to calculate the length of
  *
  * Return: The length of the string "s"
