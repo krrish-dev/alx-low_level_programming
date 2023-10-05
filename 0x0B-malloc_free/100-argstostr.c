@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 /**
  * _strlen - find length of a string
  * @s: string
@@ -17,11 +18,16 @@ int _strlen(char *s)
 }
 
 /**
- * *argstostr - description
- * @ac: int
- * @av: arguments
- * Return: string
- */
+ * argstostr - Concatenates all program arguments
+ * into a single string.
+ * @ac: Number of arguments.
+ * @av: Array of argument strings.
+ *
+ * Return: Pointer to a new string with concatenated
+ * arguments separated by '\n'.
+ * NULL if ac == 0, av == NULL, or memory allocation fails.
+*/
+
 
 char *argstostr(int ac, char **av)
 {
