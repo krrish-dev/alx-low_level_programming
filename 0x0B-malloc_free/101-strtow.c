@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * wrdcnt - counts the number of words in a string
- * @s: string to count
+ * wrdcnt - Counts the number of words in a string.
+ * @s: The input string.
  *
- * Return: int of number of words
+ * Return: The number of words in the string.
  */
 int wrdcnt(char *s)
 {
@@ -25,10 +25,13 @@ int wrdcnt(char *s)
 }
 
 /**
- * strtow - splits a string into words
- * @str: string to split
+ * strtow - Splits a string into words.
+ * @str: The input string to split.
  *
- * Return: pointer to an array of strings
+ * Return: A pointer to an array of strings (words) or NULL if str is NULL,
+ *         str is an empty string, or if memory allocation fails.
+ *         Each element of the array contains a single word, null-terminated,
+ *         and the last element of the array is NULL.
  */
 char **strtow(char *str)
 {
