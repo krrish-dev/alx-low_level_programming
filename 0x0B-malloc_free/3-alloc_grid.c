@@ -6,9 +6,11 @@
  * @height: The height (number of rows) of the 2D array.
  *
  * This function dynamically allocates memory for a 2D array of integers with
- * the specified width and height. Each element of the array is initialized to 0.
+ * the specified width and height.
+ * Each element of the array is initialized to 0.
  *
- * Return: If memory allocation is successful, returns a pointer to the newly
+ * Return: If memory allocation is successful,
+ * returns a pointer to the newly
  *         created 2D array. If width or height is less than or equal to 0, or if
  *         memory allocation fails, returns NULL.
 */
