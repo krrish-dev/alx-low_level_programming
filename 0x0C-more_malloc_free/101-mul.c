@@ -3,22 +3,23 @@
 #include <string.h>
 
 /**
- * _isdigit - checks if character is digit
- * @c: the character to check
+ * _isdigit - Checks if a character is a digit
+ * @c: The character to check
  *
- * Return: 1 if digit, 0 otherwise
- */
+ * Return: 1 if character is between 0-9,
+ * 0 otherwise
+*/
 int _isdigit(int c)
 {
 	return (c >= '0' && c <= '9');
 }
 
-/**
- * _strlen - returns the length of a string
- * @s: the string whose length to check
+/** 
+ * _strlen - Returns length of a string
+ * @s: The string to get the length of
  *
- * Return: integer length of string
- */
+ * Return: The length of the string
+*/
 int _strlen(char *s)
 {
 	int i = 0;
@@ -29,12 +30,14 @@ int _strlen(char *s)
 }
 
 /**
- * big_multiply - multiply two big number strings
- * @s1: the first big number string
- * @s2: the second big number string
+ * big_multiply - Multiply two big number strings
+ * @s1: The first big number string
+ * @s2: The second big number string
  *
- * Return: the product big number string
- */
+ * Return: Pointer to result string, or
+ * NULL on failure
+*/
+
 char *big_multiply(char *s1, char *s2)
 {
 	char *r;
@@ -80,12 +83,13 @@ char *big_multiply(char *s1, char *s2)
 
 
 /**
- * main - multiply two big number strings
- * @argc: the number of arguments
- * @argv: the argument vector
+ * main - Entry point to multiply big numbers
+ * @argc: Number of command line arguments
+ * @argv: Array of command line args
  *
- * Return: Always 0 on success.
- */
+ * Return: 0 on success, non-zero on failure
+*/
+
 int main(int argc, char **argv)
 {
 	char *r;
