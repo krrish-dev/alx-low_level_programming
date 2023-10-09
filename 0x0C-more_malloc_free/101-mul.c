@@ -9,12 +9,13 @@
  * Return: 1 if character is between 0-9,
  * 0 otherwise
 */
+
 int _isdigit(int c)
 {
 	return (c >= '0' && c <= '9');
 }
 
-/** 
+/**
  * _strlen - Returns length of a string
  * @s: The string to get the length of
  *
@@ -81,13 +82,13 @@ char *big_multiply(char *s1, char *s2)
 	return (r);
 }
 
-
 /**
  * main - Entry point to multiply big numbers
  * @argc: Number of command line arguments
  * @argv: Array of command line args
  *
- * Return: 0 on success, non-zero on failure
+ * Return: 0 on success,
+ * non-zero on failure
 */
 
 int main(int argc, char **argv)
