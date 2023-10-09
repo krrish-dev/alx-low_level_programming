@@ -5,16 +5,18 @@
  * string_nconcat - Concatenates two strings
  * @s1: The first string to concatenate.
  * If NULL, treated as empty string
- * @s2: The second string to concatenate. 
+ * @s2: The second string to concatenate.
  * If NULL, treated as empty string
  * @n: The maximum number of bytes
  * from s2 to concatenate to s1
  *
  * Description: Concatenates
- * s1 and first n bytes of s2. Adds null terminator.
+ * s1 and first n bytes of s2.
+ * Adds null terminator.
  * Allocates memory for the concatenated string.
  * If function fails, returns NULL.
- * If n >= length of s2, concatenates entire s2 string.
+ * If n >= length of s2,
+ * concatenates entire s2 string.
  *
  * Return: Pointer to the concatenated string
  * if success, NULL if failure.
