@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print name of of this source file
+ * main - print name of of this source file task_2
  *
  * Return: Always 0.
  */
