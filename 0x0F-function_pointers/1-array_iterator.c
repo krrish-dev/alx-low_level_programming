@@ -5,10 +5,11 @@
  * @array: the int array
  * @size: the array size
  * @action: function pointer
- * 
- * Description - task1
+ *
+ * Description - array_iterator task1
  * Return: void
  */
+
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	int *end = array + size - 1;
