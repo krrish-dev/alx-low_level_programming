@@ -5,7 +5,7 @@
  * print_dog - prints a dog
  * @d: the dog to print
  *
- * print_dog -task2
+ * Description - task2
  * Return: void.
  */
 void print_dog(struct dog *d)

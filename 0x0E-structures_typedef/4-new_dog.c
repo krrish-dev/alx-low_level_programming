@@ -6,7 +6,7 @@
  *
  * @str: the string to get the length
  *
- * _strlen - task4
+ * Description - task4
  * Return: length of @str
 */
 

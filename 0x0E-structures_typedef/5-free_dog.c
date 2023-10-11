@@ -5,7 +5,7 @@
  * free_dog - frees yo dawgs
  * @d: yo dawg
  *
- * free_dog -task5
+ * Description - task5
  * Return: void.
  */
 void free_dog(dog_t *d)
