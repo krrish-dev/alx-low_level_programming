@@ -2,13 +2,18 @@
 
 
 /**
- * print_numbers - prints numbers with separator
- * @separator: the string separator
- * @n: the number of arguments
- * @...: the integers to print
+ * print_numbers - Prints numbers with separator,
+ * followed by new line
+ * @separator: String printed between numbers
+ * @n: Number of int args passed
+ * @...: Variable number of int args to print
+ *
+ * Description: Prints n ints passed to it, separated by
+ * separator string. Prints new line after last number.
+ * Uses a va_list to iterate through args.
  *
  * Return: void
- */
+*/
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	int i = n;
