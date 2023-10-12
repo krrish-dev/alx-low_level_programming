@@ -5,7 +5,7 @@
  * sum_them_all - Sums all the parameter arguments
  * @n: The number of arguments passed to the function
  * @...: A variable number of arguments to sum
- * 
+ *
  * Description: This function returns the sum of all the
  * parameter arguments passed to it. The first parameter
  * n determines how many extra arguments were passed to
