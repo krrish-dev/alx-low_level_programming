@@ -1,10 +1,18 @@
 #include "variadic_functions.h"
 
 /**
- * format_char - formats character
- * @separator: the string seprator
- * @ap: argument pointer
- */
+ * format_char - Formats a char, prints it
+ * @separator: String printed between arguments
+ * @ap: Va_list pointing to the char argument
+ *
+ * Description: Prints a character formatted as:
+ * - The separator string
+ * - The character
+ *
+ * The character is retrieved from stdarg va_list
+ * using va_arg, by passing va_list and char type.
+*/
+
 void format_char(char *separator, va_list ap)
 {
 	printf("%s%c", separator, va_arg(ap, int));
