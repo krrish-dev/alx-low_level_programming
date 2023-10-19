@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * add_node - Adds a new node to the start of the list
- * @head: Address of pointer to the head node
+ * add_node - Add a new node to the start of the list
+ * @head: Pointer to the head node
  * @str: String to be added to the new node
  *
  * Return: Pointer to the new head of the list
