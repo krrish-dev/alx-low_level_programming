@@ -17,5 +17,5 @@ size_t list_len(const list_t *head)
 		head = head->next;
 		node_count++;
 	}
-	return node_count;
+	return (node_count);
 }
