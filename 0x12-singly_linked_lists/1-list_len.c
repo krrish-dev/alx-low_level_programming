@@ -1,11 +1,11 @@
 #include "lists.h"
 
+
 /**
- * list_len - Determines the length
- * of a linked list
- * @head: A pointer to the first node
+ * list_len - Counts nodes in a linked list.
+ * @head: First node in the list.
  *
- * Return: The size of the list
+ * Return: Number of nodes.
  */
 
 size_t list_len(const list_t *head)
