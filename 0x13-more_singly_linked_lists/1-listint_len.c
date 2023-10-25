@@ -4,7 +4,7 @@
  * listint_len - Counts the number of elements in a linked list.
  * @h: A pointer to the first node of the linked list.
  *
- * Returns: The size (number of nodes) in the linked list.
+ * Return: The size (number of nodes) in the linked list.
  */
 size_t listint_len(const listint_t *h)
 {
