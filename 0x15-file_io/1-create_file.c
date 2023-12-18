@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _strlen - returns the length of a string
- * @s: the string whose length to check
+ * _strlen - Calculates the length of a string
+ * @s: the string variable length to check
  *
  * Return: integer length of string
  */
@@ -19,9 +19,9 @@ int _strlen(char *s)
 }
 
 /**
- * create_file - creates a file
- * @filename: name of file to create
- * @text_content: text to write
+ * create_file - Creates a file with content
+ * @filename: name of the file to create
+ * @text_content: text to write in the file
  *
  * Return: 1 on success 0 on failure
  */
